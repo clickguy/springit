@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 // Project Lombok will create getters, setters, toString and no args constructor
 @NoArgsConstructor
 @Data
-public class Comment {
+public class Comment extends Auditable {
     
     @Id
     @GeneratedValue
