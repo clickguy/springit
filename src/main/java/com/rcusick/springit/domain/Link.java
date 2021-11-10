@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
 
 /**
  *
@@ -20,7 +21,9 @@ public class Link {
     @Id
     @GeneratedValue
     private Long id;
+    @NonNull // Project Lombok
     private String title;
+    @NonNull
     private String url;
     
     // comments
