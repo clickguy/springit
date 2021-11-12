@@ -1,6 +1,7 @@
 package com.rcusick.springit.repository;
 
 import com.rcusick.springit.domain.Link;
+import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
